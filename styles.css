@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    /* Black background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.center-container img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    /* Ensure no extra space below image */
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #8BC34A;
+    }
+}
