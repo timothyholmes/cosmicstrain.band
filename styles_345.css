@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
     background-color: #000000;
     font-family: Arial, sans-serif;
@@ -14,18 +14,31 @@ body {
 }
 
 .image-container .logo {
-    width: 90%;
-    max-width: 2000px;
+    width: 65%;
+    max-width: 1000px;
     height: auto;
     margin-top: 50px;
     border-radius: 10px;
 }
 
 .image-container .header-shot {
-    width: 90%;
-    max-width: 1500px;
+    display: block;
+    margin: 24px auto;
+    max-width: 90%;
+    max-height: 85vh;
+    width: auto;
     height: auto;
     border-radius: 10px;
+}
+
+.image-container .header-shot--vertical {
+    max-width: 55%;
+    max-height: 85vh;
+}
+
+.image-container .header-shot--horizontal {
+    max-width: 90%;
+    max-height: 72vh;
 }
 
 .pic-credit {
